@@ -1,0 +1,6 @@
+body {
+    padding-top: 80px;
+    /* lisää tilaa navbarin alle */
+    background-color: #ffe4e9 !important;
+    font-family: 'Nunito', sans-serif;
+}
