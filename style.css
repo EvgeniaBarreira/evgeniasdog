@@ -23,6 +23,19 @@ h1 {
     font-size: 2.5rem;
 }
 
+.gallery-title {
+    margin-top: 64px;
+}
+
+.gallery-grid {
+    width: 100%;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
 p {
     font-size: 1.25rem;
 }
