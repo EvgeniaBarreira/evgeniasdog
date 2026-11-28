@@ -41,3 +41,7 @@ p {
 .breed-comparison p {
     font-size: 1.1rem;
 }
+
+.offcanvas-body .nav-link {
+    color: white !important;
+}
