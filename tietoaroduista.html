@@ -14,150 +14,167 @@
 
 <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Tervetuloa tutustumaan Evgenian koiriin</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Evgenian koirat</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="index.html" href="#">Etusivu</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="tietoaroduista.html">Tietoa roduista</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Minun kaksi koiraani
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="pirozhok.html">Pirozhok</a></li>
-                                    <li><a class="dropdown-item" href="chapo.html">Chapo</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="kuvagalleria.html">Kuvagalleria</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Tervetuloa tutustumaan Evgenian koiriin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Evgenian koirat</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tietoaroduista.html">Tietoa roduista</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Minun kaksi koiraani
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="pirozhok.html">Pirozhok</a></li>
+                                <li><a class="dropdown-item" href="chapo.html">Chapo</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="kuvagalleria.html">Kuvagalleria</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
 
 
-                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
     <div class="container mt-3">
         <h2>Tietoa koirieni roduista</h2>
         <p>Minulla on kaksi koiraa, Pirozhok ja Chapo. Pirozhok kuuluu bichon frisé -rotuun ja Chapo on toyvillakoira.
             Tälle sivulle olen koonnut tietoa heidän roduistaan, kuten alkuperästä, koosta ja tyypillisistä
             luonteenpiirteistä.</p>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Ominaisuus</th>
-                    <th>Bichon frisé</th>
-                    <th>Toyvillakoira</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Alkuperämaa</td>
-                    <td>Ranska / Belgia </td>
-                    <td>Ranska</td>
-                </tr>
-                <tr class="table-primary">
-                    <td>Luonne</td>
-                    <td>Iloinen, seurallinen ja ystävällinen</td>
-                    <td>Ystävällinen, leikkiävä ja uskollinen</td>
-                </tr>
-                <tr class="table-success">
-                    <td>Koko</td>
-                    <td>Pieni</td>
-                    <td>Pieni</td>
-                </tr>
-                <tr class="table-danger">
-                    <td>Paino</td>
-                    <td>5-8 kg</td>
-                    <td>2-4 kg</td>
-                </tr>
-                <tr class="table-info">
-                    <td>Elinikä</td>
-                    <td>12-15 vuotta</td>
-                    <td>12-18 vuotta</td>
-                </tr>
-                <tr class="table-warning">
-                    <td>Turkin tyyppi</td>
-                    <td>Kihara ja pehmeä</td>
-                    <td>Kihara</td>
-                </tr>
-                <tr class="table-active">
-                    <td>Turkin värit</td>
-                    <td>Valkoinen</td>
-                    <td>Useita värejä</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Aktiivisuustaso</td>
-                    <td>Keskitaso</td>
-                    <td>Korkea</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Koulutettavuus</td>
-                    <td>Hyvä</td>
-                    <td>Erinomainen</td>
-                </tr>
-            </tbody>
-        </table>
+
         <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Bichon frisé
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Bichon frisé</strong> on pieni, valkoinen ja erittäin seurallinen
-        koirarotu. Se tunnetaan iloisesta luonteestaan ja pehmeästä,
-        kiharasta turkistaan. Rotu viihtyy ihmisten seurassa ja sopii
-        hyvin perhekoiraksi. Bichon frisé on älykäs ja oppii uusia asioita
-        melko helposti, mutta tarvitsee säännöllistä turkinhoitoa.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Bichon frisé
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Bichon frisé</strong> on pieni, valkoinen ja erittäin seurallinen
+                        koirarotu. Se tunnetaan iloisesta luonteestaan ja pehmeästä,
+                        kiharasta turkistaan. Rotu viihtyy ihmisten seurassa ja sopii
+                        hyvin perhekoiraksi. Bichon frisé on älykäs ja oppii uusia asioita
+                        melko helposti, mutta tarvitsee säännöllistä turkinhoitoa.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Toyvillakoira
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Toyvillakoira</strong> on villakoiran pienin kokomuunnos.
+                            Se on erittäin älykäs, energinen ja uskollinen koira. Rotu oppii
+                            nopeasti uusia temppuja ja nauttii yhteisestä tekemisestä
+                            omistajansa kanssa. Toyvillakoira sopii hyvin myös kerrostaloon,
+                            kunhan se saa riittävästi liikuntaa ja virikkeitä.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="breed-comparison">
+                <h2>Rotujen vertailu</h2>
+                <p>Pirozhok ja Chapo edustavat kahta erilaista koirarotua. Vaikka molemmat ovat pieniä seurakoiria,
+                    niiden luonteessa, ulkonäössä ja aktiivisuudessa on myös eroja. Alla oleva taulukko kokoaa yhteen
+                    rotujen tärkeimmät tiedot.</p>
+
+                <table class="table breed-table">
+                    <thead>
+                        <tr>
+                            <th>Ominaisuus</th>
+                            <th>Bichon frisé</th>
+                            <th>Toyvillakoira</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alkuperämaa</td>
+                            <td>Ranska / Belgia </td>
+                            <td>Ranska</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>Luonne</td>
+                            <td>Iloinen, seurallinen ja ystävällinen</td>
+                            <td>Ystävällinen, leikkiävä ja uskollinen</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Koko</td>
+                            <td>Pieni</td>
+                            <td>Pieni</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Paino</td>
+                            <td>5-8 kg</td>
+                            <td>2-4 kg</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>Elinikä</td>
+                            <td>12-15 vuotta</td>
+                            <td>12-18 vuotta</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Turkin tyyppi</td>
+                            <td>Kihara ja pehmeä</td>
+                            <td>Kihara</td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>Turkin värit</td>
+                            <td>Valkoinen</td>
+                            <td>Useita värejä</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Aktiivisuustaso</td>
+                            <td>Keskitaso</td>
+                            <td>Korkea</td>
+                        </tr>
+                        <tr class="table-light">
+                            <td>Koulutettavuus</td>
+                            <td>Hyvä</td>
+                            <td>Erinomainen</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Toyvillakoira
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-         <strong>Toyvillakoira</strong> on villakoiran pienin kokomuunnos.
-        Se on erittäin älykäs, energinen ja uskollinen koira. Rotu oppii
-        nopeasti uusia temppuja ja nauttii yhteisestä tekemisestä
-        omistajansa kanssa. Toyvillakoira sopii hyvin myös kerrostaloon,
-        kunhan se saa riittävästi liikuntaa ja virikkeitä.
-  </div>
-    </div>
 
-</body>
-
-</html>
-
+    <footer class="bg-dark text-white text-center py-3 mt-5 w-100">
+        <p class="mb-0">&copy; 2026 Evgenian koirat. Kaikki oikeudet pidätetään.</p>
+    </footer>
 </body>
 
 </html>

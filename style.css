@@ -1,6 +1,43 @@
 body {
     padding-top: 80px;
     /* lisää tilaa navbarin alle */
-    background-color: #ffe4e9 !important;
+    background-color: #fedfe4 !important;
     font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    max-width: none;
+    align-self: stretch;
+    margin-top: auto !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.carousel {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.breed-comparison {
+    margin-top: 80px;
+}
+
+.breed-comparison p {
+    font-size: 1.1rem;
 }
