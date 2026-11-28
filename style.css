@@ -45,6 +45,9 @@ p {
     margin: auto;
     margin-top: 50px;
     margin-left: 0;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .breed-comparison {
@@ -63,6 +66,6 @@ p {
 .carousel-control-next-icon {
     width: 60px;
     height: 60px;
-    background-color: black;
+    background-color: white;
     border-radius: 10%;
 }
